@@ -38,7 +38,7 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     erubis (2.7.0)
-    excon (0.35.0)
+    excon (0.36.0)
     execjs (2.1.0)
     heroku (3.8.2)
       heroku-api (~> 0.3.17)
@@ -67,6 +67,7 @@ GEM
     minitest (5.3.4)
     multi_json (1.10.1)
     netrc (0.7.7)
+    pg (0.17.1)
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -144,6 +145,7 @@ DEPENDENCIES
   heroku
   jbuilder (~> 2.0)
   jquery-rails
+  pg
   rails (= 4.1.1)
   rails_12factor
   sass-rails (~> 4.0.3)
