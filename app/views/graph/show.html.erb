@@ -1,2 +1,10 @@
 <h1>Graph#show</h1>
 <p>Find me in app/views/graph/show.html.erb</p>
+
+<div id="mygraph"></div>
+
+<script type="text/javascript">
+  var container = document.getElementById('mygraph');
+  var options = {};
+  var graph = new vis.Graph(container, data, options);
+</script>
