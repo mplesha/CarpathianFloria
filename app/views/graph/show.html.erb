@@ -1,10 +1,12 @@
-<h1>Graph#show</h1>
-<p>Find me in app/views/graph/show.html.erb</p>
+<h1>Carpathian Floria</h1>
+<p>Graphical visualisation of
+  <a href="http://ekontsh.civicua.org/system.php">"Directory names of plants of Ukraine"
+  </a>
+</p>
 
 <div id="mygraph"></div>
 
 <script type="text/javascript">
-  var container = document.getElementById('mygraph');
-  var options = {};
+  var container = $("#mygraph").get(0);
   var graph = new vis.Graph(container, data, options);
 </script>
